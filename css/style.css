@@ -515,10 +515,16 @@ hr {
 
 }
 
-.review_avatar>img {
+.avatar-1 {
     position: absolute;
     top: 5px;
     left: 7px;
+}
+
+.avatar-2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 
