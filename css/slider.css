@@ -65,3 +65,45 @@ background-position: center;
     width: 6px;
     height: 12px;
 }
+
+.reviews_slider {
+    position: relative;
+}
+
+.reviews_slider .slick-arrow {
+    position: absolute;
+    top: -24px;
+    z-index: 20;
+    font-size: 0;
+    background-color: transparent;
+}
+
+.reviews_slider .slick-arrow.slick-next {
+    right: 0;
+    background-image: url('../img/svg/grey-chevron-next.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6px;
+    height: 12px;
+   
+}
+
+
+.reviews_slider .slick-arrow.slick-prev {
+    right: 46px;
+    background-image: url('../img/svg/grey-chevron-prev.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6px;
+    height: 12px;
+}
+
+
+.reviews_slider .slick-slide {
+    margin-left: 27px;
+  }
+
+
+.reviews_slider .slick-list {
+    margin-left: -27px;
+  }

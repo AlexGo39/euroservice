@@ -345,7 +345,7 @@ button {
 .news {
     background-color: #181822;
     padding-top: 120px;
-    margin-bottom: 120px;
+    
 }
 
 .row {
@@ -454,9 +454,12 @@ hr {
     margin: 0;
 }
 
-.reviews_container {
-    display: flex;
-    justify-content: space-between;
+.all_reviews {
+    margin-right: 108px;
+}
+
+
+.reviews_slider {
     padding-top: 40px;
 }
 
@@ -652,9 +655,6 @@ hr {
     margin-bottom: 50px;
 }
 
-/* .partners_slider {
-    padding-top: 50px;
-}  */
 
 .subscribe {
     background-color: #0428AB;

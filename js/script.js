@@ -24,8 +24,24 @@ $(document).ready(function(){
     easing: "easeInQuad",
     autoplay: false,
     autoplaySpeed: 3000,
+    draggable: true,
+ }
+ );
+
+
+ $('.reviews_slider').slick({
+    arrows: true,
+    speed: 1000,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    infinite: true,
+    initialSlide: 0,
+    easing: "easeInQuad",
+    autoplay: false,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
     draggable: true,
  }
  );
+
 });
