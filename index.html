@@ -8,6 +8,7 @@
     <meta name="keywords" content="грузовики, продажа, аренда, ремонт">
     <title>Евросервис</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -84,18 +85,32 @@
     </header>
     <div class="wrapper">
         <main>
-        <section class="slider">
-            <img src="img/jpg/slider-photo-1.jpg" alt="" class="slider_img wrapper">
-            <div class="container">
-                <div class="slider_items">
-                    <h1 class="slider_title">Грузовые автомобили DAF</h1>
+        <section class="main_slider">
+            <div class="slider_item" style="background: url('./img/jpg/slider-photo-1.jpg') no-repeat center;  min-height: 570px;">
+             <div class="container">
+                <h1 class="slider_title">Грузовые автомобили DAF</h1>
                     <p class='slider_descr'>Продаём грузовую технику и прицепы, занимаемся обслуживанием и ремонтом.</p>
                     <a class="details_btn" href="">Подробнее</a>
                 </div>
-                <button class='arrow_left'></button>
-                <button class='arrow_right'></button>
-
             </div>
+           <div class="slider_item" style="background: url('./img/jpg/blank-slider-lightgrey.jpg') no-repeat center;  min-height: 570px;">
+            <div class="container">
+                <h1 class="slider_title">Lorem ipsum</h1>
+                    <p class='slider_descr'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni eos ducimus praesentium laborum voluptatem dolores ratione esse dolorem repudiandae nostrum, eius qui laboriosam beatae. Facere amet accusamus officiis necessitatibus autem.</p>
+                    <a class="details_btn" href="">Подробнее</a>
+                </div>
+            </div>
+            <div class="slider_item" style="background: url('./img/jpg/blank-slider-grey.jpg') no-repeat center;  min-height: 570px;">
+                <div class="container">
+                    <h1 class="slider_title">Lorem ipsum</h1>
+                        <p class='slider_descr'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni eos ducimus praesentium laborum voluptatem dolores ratione esse dolorem repudiandae nostrum, eius qui laboriosam beatae. Facere amet accusamus officiis necessitatibus autem.</p>
+                        <a class="details_btn" href="">Подробнее</a>
+                    </div>
+                </div>
+
+
+
+           </div>
         </section>
         <section class="services">
             <div class="container">
@@ -361,6 +376,9 @@
                 </div>
             </div>
         </div>
-    </footer>    
+    </footer> 
+    <script src="./js/jquery-3.6.0.min.js"></script>  
+    <script src="./js/slick.min.js"></script> 
+    <script src="./js/script.js"></script> 
 </body>
 </html>

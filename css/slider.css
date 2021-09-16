@@ -1,0 +1,36 @@
+.slick-track { 
+display: flex;
+align-items: flex-start;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.main_slider {
+    position: relative;
+}
+
+.main_slider .slick-arrow {
+position: absolute;
+bottom: 30px;
+z-index: 20;
+font-size: 0;
+width: 46px;
+height: 46px;
+background-color: #E5E6EC;
+}
+
+.main_slider .slick-arrow.slick-prev {
+right: 115px;
+background-image: url('../img/svg/chevron-prev.svg');
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.main_slider .slick-arrow.slick-next {
+right: 44px;
+background-image: url('../img/svg/chevron-next.svg');
+background-repeat: no-repeat;
+background-position: center;
+}

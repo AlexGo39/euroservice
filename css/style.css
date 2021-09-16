@@ -50,6 +50,9 @@ img {
     box-sizing: border-box;
 }
 
+button {
+    border: none;
+  }
 
 .wrapper {
     width: 1400px;
@@ -223,21 +226,23 @@ img {
     display: block;
 }
 
+.slider_item {
+    box-sizing: border-box;
+} 
+
+.slider_item>.container {
+    padding-top: 145px;
+ }
+
 .slider_title {
     font-family: 'NotoSans';
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
     line-height: 60px;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     color:white;
     max-width: 500px;
-}
-
-.slider_img {
-    object-fit: cover;
-    height: 570px;
-    display: block;
 }
 
 
@@ -251,18 +256,6 @@ img {
     color: #FFFFFF;
     width: 415px;
 }
-
-.slider>.container {
-    position: relative;
-}
-
-.slider_items {
-    position: absolute;
-    top: -425px;
-    left: 0;
-}
-
-
 
 .details_btn {
     display: inline-block;
@@ -278,9 +271,9 @@ img {
     text-align: center;
     border-radius: 2px 0px 0px 2px;
 }
-.container>button{
-    display: none;
-}
+
+
+
 
 .services {
     padding-top: 120px;
