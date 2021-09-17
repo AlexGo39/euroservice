@@ -9,6 +9,7 @@
     <title>Евросервис</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -56,7 +57,7 @@
              </a>  
            </div>
            <div class="callus">
-                <a class="callus-link" href="#">Заказать звонок</a>
+                <a class="callus-link" data-modal="call_modal" href="#">Заказать звонок</a>
            </div>
         </div>
         <nav class="header_menu">
@@ -302,7 +303,7 @@
                 </div>
                 <form id="subscribe_form" method="post" action="/">
                     <div class="submit_group">
-                        <input type="text" placeholder="Введите вашу электронную почту" value="" name="email">
+                        <input type="email" placeholder="Введите вашу электронную почту" value="" name="email">
                         <input type="submit" value="Подписаться" id="subscribe_submit" name="submit">
                     </div>
                 </form>
@@ -395,7 +396,26 @@
             </div>
         </div>
     </div>
-    </footer> 
+    </footer>
+    <div class="overlay">
+        <div class="modal" id="call_modal">
+            <div class="modal_close">&times;</div>
+            <form class="modal_callback" action="#">
+                <h4 class="modal_subtitle">Закажите обратный звонок</h4>
+                    <fieldset>
+                    <input name="name" required type="text" placeholder="Ваше имя">
+                    <input name="phone" required type="number" placeholder="Ваш номер телефона">
+                    <label for="agreeing"><input id="agreeing" type="checkbox" required name="personality">Я согласен(-на) с <a href="">условиями политики обработки персональных данных.</a></label>
+                    </fieldset>
+                <button class="submit_button">Заказать звонок</button>
+            </form>
+        </div>
+        <div class="modal" id="thanks_modal">
+            <div class="modal_close">&times;</div>
+                <h4 class="modal_subtitle">Спасибо!</h4>
+                <p class="thanks_text">Мы получили вашу заявку и свяжемся с вами в ближайшее время.</p>
+        </div>
+    </div>
     <script src="./js/jquery-3.6.0.min.js"></script>  
     <script src="./js/slick.min.js"></script> 
     <script src="./js/script.js"></script> 

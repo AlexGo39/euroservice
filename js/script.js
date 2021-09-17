@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
  $('.main_slider').slick({
     arrows:true,
     speed: 1000,
@@ -43,5 +44,15 @@ $(document).ready(function(){
     draggable: true,
  }
  );
+
+///Modal
+$('[data-modal="call_modal"]').on('click', function(){
+   $('.overlay, #call_modal').fadeIn('slow');
+});
+
+$('.modal_close').on('click', function(){
+   $('.overlay, #call_modal, #thanks_modal').fadeOut('slow');
+});
+
 
 });

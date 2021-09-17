@@ -40,6 +40,10 @@ a {
     color:#fff;
 }
 
+h4 {
+    margin: 0;
+}
+
 
 ul {
     list-style: none;
@@ -697,7 +701,7 @@ hr {
     display: flex;
 }
 
-input[type="text" i] {
+input[name="email"] {
     padding: 12px 0 12px 15px;
     min-width: 475px;
     border-radius: 2px;
