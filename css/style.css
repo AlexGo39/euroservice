@@ -226,6 +226,14 @@ button {
     padding: 0px 0px 35px 35px;
 }
 
+.search svg {
+    transition: .4s;
+}
+
+.search svg:hover {
+    transform: scale(1.2);
+}
+
 
 .info:hover .header_submenu {
     display: block;
