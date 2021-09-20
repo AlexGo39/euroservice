@@ -780,19 +780,26 @@ footer .address {
     display: flex;
 }
 
+
+/* .footer_menu {
+    
+}
+ */
+
 .footer_menu-list {
     display: flex;
+    flex-direction: column;
+    width: 571px;
+    height: 125px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
     margin: 0;
     padding: 0;
 
 }
-.footer_menu-block {
-    padding-left: 100px;
-}
 
-.left_col li {
-    margin-bottom: 15px;
-}
 
 .footer_submenu-list {
     padding: 5px 0 0 0;
